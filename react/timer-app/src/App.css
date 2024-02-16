@@ -1,0 +1,40 @@
+.timer-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.time-display {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+.start-button,
+.stop-button,
+.reset-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.start-button {
+  background-color: #4CAF50; /* Grün */
+  color: white;
+  border: none;
+}
+
+.stop-button {
+  background-color: #f44336; /* Rot */
+  color: white;
+  border: none;
+}
+
+.reset-button {
+  background-color: #008CBA; /* Blau */
+  color: white;
+  border: none;
+}
