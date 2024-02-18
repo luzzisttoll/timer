@@ -1,0 +1,9 @@
+<!-- timer.component.html -->
+<div>
+    <h1>Timer</h1>
+    <button (click)="startTimer()" [disabled]="timerStarted">Start Timer</button>
+    <div *ngIf="timerStarted">
+      <p>Elapsed Time: {{ elapsedTime }}</p>
+    </div>
+  </div>
+  
